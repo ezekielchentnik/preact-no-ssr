@@ -3,7 +3,7 @@
 [![NPM](https://img.shields.io/npm/v/preact-no-ssr.svg)](https://www.npmjs.com/package/preact-no-ssr)
 [![Travis](https://travis-ci.org/ezekielchentnik/preact-no-ssr.svg?branch=master)](https://travis-ci.org/ezekielchentnik/preact-no-ssr)
 
-A Preact component for skipping server side rendering (SSR) of components. This component helps render components on the server that make sense to be rendered above the fold or that only makes sense to render on client.
+A Preact component for skipping server side rendering (SSR) of components. This component helps render components on the server that make sense to be rendered above the fold or that only makes sense to render on client.  Depending on your server side render, this can significantly boost performance.
 
 #### [Demo](https://github.com/ezekielchentnik/preact-pwa)
 
