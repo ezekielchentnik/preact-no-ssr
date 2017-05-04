@@ -9,8 +9,7 @@
   "scripts": {
     "build": "rollem",
     "test": "echo \"write tests yo\"",
-    "prepublish": "npm run build",
-    "release": "npm run build && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+    "prepublish": "npm run build"
   },
   "keywords": [
     "preact",
