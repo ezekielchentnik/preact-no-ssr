@@ -461,7 +461,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rollem@^1.11.3:
+rollem@1.11.3:
   version "1.11.3"
   resolved "https://registry.yarnpkg.com/rollem/-/rollem-1.11.3.tgz#5eafddb329db8c86968a3409ca4ee1c52e3b1310"
   dependencies:
@@ -520,12 +520,6 @@ rollup-pluginutils@^2.0.1:
 rollup@0.41.4:
   version "0.41.4"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.41.4.tgz#a970580176329f9ead86854d7fd4c46de752aef8"
-  dependencies:
-    source-map-support "^0.4.0"
-
-rollup@0.41.6:
-  version "0.41.6"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.41.6.tgz#e0d05497877a398c104d816d2733a718a7a94e2a"
   dependencies:
     source-map-support "^0.4.0"
 
