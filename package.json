@@ -1,14 +1,14 @@
 {
   "name": "preact-no-ssr",
   "amdName": "NoSsr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Preact component to wrap non SSR components.  Helps with above the fold rendering.",
   "main": "dist/preact-no-ssr.js",
   "minified:main": "dist/preact-no-ssr.min.js",
   "jsnext:main": "src/index.js",
   "scripts": {
     "build": "rollem",
-    "test": "echo \"write tests yo\"",
+    "test": "standard",
     "prepublish": "npm run build"
   },
   "keywords": [
@@ -34,8 +34,5 @@
     "rollup-plugin-node-resolve": "3.0.0",
     "rollup-plugin-uglify": "1.0.2",
     "standard": "10.0.2"
-  },
-  "peerDependencies": {
-    "preact": "*"
   }
 }

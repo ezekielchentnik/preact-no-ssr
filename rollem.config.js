@@ -8,37 +8,37 @@ const uglifyConfig = JSON.parse(fs.readFileSync('./uglify.json'))
 const external = Object.keys(pkg['devDependencies'])
 
 module.exports = [
-	{
-		entry: 'src/index.js',
-		external,
-		plugins: [
-			resolve({ jsnext: true, browser: true }),
-			cjs(),
-			buble({ jsx: 'h' })
-		],
-		sourceMap: true,
-		format: 'umd',
-		dest: pkg['main'],
-		moduleName: pkg['amdName'],
-		globals: {
-			preact: 'preact'
-		}
-	},
-	{
-		entry: 'src/index.js',
-		external,
-		plugins: [
-			resolve({ jsnext: true, browser: true }),
-	    cjs(),
-	    buble({ jsx: 'h' }),
-	    uglify(uglifyConfig)
-		],
-		sourceMap: true,
-		format: 'umd',
-		dest: pkg['minified:main'],
-		moduleName: pkg['amdName'],
-		globals: {
-			preact: 'preact'
-		}
-	}
+  {
+    entry: 'src/index.js',
+    external,
+    plugins: [
+      resolve({ jsnext: true, browser: true }),
+      cjs(),
+      buble({ jsx: 'h' })
+    ],
+    sourceMap: true,
+    format: 'umd',
+    dest: pkg['main'],
+    moduleName: pkg['amdName'],
+    globals: {
+      preact: 'preact'
+    }
+  },
+  {
+    entry: 'src/index.js',
+    external,
+    plugins: [
+      resolve({ jsnext: true, browser: true }),
+      cjs(),
+      buble({ jsx: 'h' }),
+      uglify(uglifyConfig)
+    ],
+    sourceMap: true,
+    format: 'umd',
+    dest: pkg['minified:main'],
+    moduleName: pkg['amdName'],
+    globals: {
+      preact: 'preact'
+    }
+  }
 ]
