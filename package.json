@@ -1,0 +1,41 @@
+{
+  "name": "preact-no-ssr",
+  "amdName": "NoSsr",
+  "version": "0.0.0",
+  "description": "Preact component to wrap non SSR components.  Helps with above the fold rendering.",
+  "main": "dist/preact-no-ssr.js",
+  "minified:main": "dist/preact-no-ssr.min.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "rollem",
+    "test": "echo \"write tests yo\" && exit 1",
+    "prepublish": "npm run build",
+    "release": "npm run build && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+  },
+  "keywords": [
+    "preact",
+    "ssr",
+    "component"
+  ],
+  "author": "Ezekiel Chentnik <ezekiel@gufsky.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezekielchentnik/preact-no-ssr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ezekielchentnik/preact-no-ssr/issues"
+  },
+  "homepage": "https://github.com/ezekielchentnik/preact-no-ssr",
+  "devDependencies": {
+    "preact": "8.1.0",
+    "rollem": "1.11.3",
+    "rollup-plugin-buble": "0.15.0",
+    "rollup-plugin-commonjs": "8.0.2",
+    "rollup-plugin-node-resolve": "3.0.0",
+    "rollup-plugin-uglify": "1.0.2"
+  },
+  "peerDependencies": {
+    "preact": "*"
+  }
+}
