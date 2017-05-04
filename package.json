@@ -1,7 +1,7 @@
 {
   "name": "preact-no-ssr",
   "amdName": "NoSsr",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Preact component to wrap non SSR components.  Helps with above the fold rendering.",
   "main": "dist/preact-no-ssr.js",
   "minified:main": "dist/preact-no-ssr.min.js",
