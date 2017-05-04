@@ -21,12 +21,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ezekielchentnik/preact-no-ssr.git"
+    "url": "git+https://github.com/gufsky/preact-no-ssr.git"
   },
   "bugs": {
-    "url": "https://github.com/ezekielchentnik/preact-no-ssr/issues"
+    "url": "https://github.com/gufsky/preact-no-ssr/issues"
   },
-  "homepage": "https://github.com/ezekielchentnik/preact-no-ssr",
+  "homepage": "https://github.com/gufsky/preact-no-ssr",
   "devDependencies": {
     "preact": "8.1.0",
     "rollem": "1.11.3",
