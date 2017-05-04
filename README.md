@@ -7,9 +7,7 @@ A Preact component for skipping server side rendering (SSR) of components. This 
 
 #### [Demo](https://github.com/ezekielchentnik/preact-pwa)
 
-
 ---
-
 
 ## Usage Example
 
