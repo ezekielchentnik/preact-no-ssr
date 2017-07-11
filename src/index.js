@@ -3,7 +3,7 @@ import { h, Component } from 'preact' // eslint-disable-line no-unused-vars
 const Placeholder = () => null
 // const RENDER_TIMEOUT = 0;
 
-export default class NoSir extends Component {
+export default class NoSsr extends Component {
   constructor (props) {
     super(props)
     this.state = { skip: ('skip' in props) ? props.skip : true } // no sir!
